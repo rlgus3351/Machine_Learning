@@ -1,0 +1,27 @@
+? 인 값들
+workclass - train : 1663
+          - test : 1136
+
+occupation - train : 1668
+          - test : 1141
+
+native-country - train : 495
+               - test : 362
+
+#   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   age             29305 non-null  int64 
+ 1   workclass       29305 non-null  object
+ 2   fnlwgt          29305 non-null  int64 
+ 3   education       29305 non-null  object
+ 4   education-num   29305 non-null  int64 
+ 5   marital-status  29305 non-null  object
+ 6   occupation      29305 non-null  object
+ 7   relationship    29305 non-null  object
+ 8   race            29305 non-null  object
+ 9   sex             29305 non-null  object
+ 10  capital-gain    29305 non-null  int64 
+ 11  capital-loss    29305 non-null  int64 
+ 12  hours-per-week  29305 non-null  int64 
+ 13  native-country  29305 non-null  object
+ 14  income          29305 non-null  int64 
