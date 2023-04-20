@@ -1,3 +1,6 @@
+---------------------------------------------------------------
+23/04/19
+---------------------------------------------------------------
 ? 인 값들
 workclass - train : 1663
           - test : 1136
@@ -26,5 +29,15 @@ native-country - train : 495
  13  native-country  29305 non-null  object
  14  income          29305 non-null  int64 
 
+RandomForestClassification -> random_state = 10
+-> 0.85
+
+RandomForestClassifier
+최대 성능 :  0.8334072683842348
+최대 성능일 때의 파라미터 조합 :  
+{'max_depth': 9, 'max_leaf_nodes': 10, 
+'min_samples_split': 3, 'n_estimators': 150}
+-> 0.84
  --------------------------------------------------------------
-Vietnam,Laos, Honduras, Scotland, Haiti, 
+
+
