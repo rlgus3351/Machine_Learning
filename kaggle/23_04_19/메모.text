@@ -25,3 +25,6 @@ native-country - train : 495
  12  hours-per-week  29305 non-null  int64 
  13  native-country  29305 non-null  object
  14  income          29305 non-null  int64 
+
+ --------------------------------------------------------------
+Vietnam,Laos, Honduras, Scotland, Haiti, 
